@@ -5,11 +5,11 @@ An attempt at an example REST Structure / Standard for API and JSON development.
 
 Example endpoint collection can be interacted with at: https://examplerest.apiary-mock.com/
 
-# Use of HTTP Response Codes
+## Use of HTTP Response Codes
 
 Standardized HTTP response codes should be used in cases of success or failure, depending on the type of success or failure achieved.
 
-# Basic response structure
+## Basic response structure
 
             {
                 "request" : { // A wrapper containing information for the current request.
