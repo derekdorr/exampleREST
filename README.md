@@ -36,6 +36,7 @@ Standardized HTTP response codes should be used in cases of success or failure, 
                         "method" : "GET",
                         "description" : "Description of method result",
                         "type" : "text/html" // Content type of the method request,
+                        "href" : "http://examplerest.apiary-mock.com/", // Fully qualified URL
                         "params" : [ // Collection of params
                             {
                                 "name" : "param1" // Parameter name,
