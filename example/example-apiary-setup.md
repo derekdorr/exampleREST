@@ -604,9 +604,6 @@ An attempt at a standard for RESTful APIs.
                 "request" : {
                     "method" : "DELETE"
                 },
-                "properties" : {
-                    "isSuccess" : true
-                },
                 "links" : [
                     {
                         "rel" : "parent",
