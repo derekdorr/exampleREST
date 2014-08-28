@@ -7,7 +7,18 @@ Example endpoint collection can be interacted with at: https://examplerest.apiar
 
 ## Use of HTTP Response Codes
 
-Standardized HTTP response codes should be used in cases of success or failure, depending on the type of success or failure achieved.
+Standardized HTTP response codes should be used in cases of success or failure, depending on the type of success or failure achieved. Some useful response codes are outlined below.
+
+### Successful Responses - 2XX
+
+|Response Code|Name|Description|
+|-------------|----|-----------|
+|200|OK|Standard response for an HTTP request.|
+|202|Accepted|The request was successful, but has not yet been acted upon. It may be rejected later.|
+
+### Client Error - 4XX
+
+
 
 ## Basic response structure
 
