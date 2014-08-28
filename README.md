@@ -10,6 +10,7 @@ Example endpoint collection can be interacted with at: https://examplerest.apiar
 Standardized HTTP status codes should be used in cases of success or failure, depending on the type of success or failure achieved. Some useful response codes are outlined below.
 
 More information on HTTP response codes can be found here: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
 Or, pull them right from W3: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
 
 ### Success - 2XX
