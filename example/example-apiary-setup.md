@@ -204,6 +204,10 @@ An attempt at a standard for RESTful APIs.
                         "href" : "https://examplerest.apiary-mock.com/v1"
                     },
                     {
+                        "rel" : "schema",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                    },
+                    {
                         "rel" : "users",
                         "description" : "Users API",
                         "href" : "https://examplerest.apiary-mock.com/v1/users"
@@ -213,6 +217,151 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "GET",
                         "href": "https://examplerest.apiary-mock.com/v1"
+                    }
+                ]
+            }
+            
+## Example V1 Schema [/v1/schema]
+### Example V1 Schema [GET]
+
++ Response 200 (application/json)
+
+    + Body
+    
+            {
+                "request" : {
+                    "method" : "GET"
+                },
+                "links" : [
+                    {
+                        "rel" : "parent",
+                        "href" : "https://examplerest.apiary-mock.com/v1"
+                    },
+                    {
+                        "rel" : "self",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                    },
+                    {
+                        "rel" : "get",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                    }
+                ],
+                "actions" : [
+                    {
+                        "method" : "GET",
+                        "href" : "https://examplerest.apiary-mock.com/schema"
+                    }
+                ]
+            }
+            
+## Example V1 GET Schema [/v1/schema/get]
+### Example V1 GET Schema [GET]
+
++ Response 200 (application/json)
+
+    + Body
+    
+            {
+                "request" : {
+                    "method" : "GET"
+                },
+                "links" : [
+                    {
+                        "rel" : "parent",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                    },
+                    {
+                        "rel" : "self",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                    },
+                    {
+                        "rel" : "200",
+                        "description" : "Success",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
+                    }
+                ],
+                "actions" : [
+                    {
+                        "method" : "GET",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                    }
+                ]
+            }
+
+## Example V1 200 GET Schema [/v1/schema/get/200]
+### GET V1 [GET]
+
++ Response 200
+
+    + Body
+
+            {
+                "request" : {
+                    "method" : "GET"
+                },
+                "properties" : {
+                    "schema" : {
+                        "type":"object",
+                        "required" : ["actions","links","request"],
+                        "properties":{
+                            "actions": {
+                                "type":"array",
+                                "items":
+                                    {
+                                        "type":"object",
+                                        "required" : ["href","method"],
+                                            "properties":{
+                                            "href": {
+                                                "type":"string"
+                                            },
+                                            "method": {
+                                                "type":"string"
+                                            }
+                                        }
+                                    }
+                            },
+                            "links": {
+                                "type":"array",
+                                "items":
+                                    {
+                                        "type":"object",
+                                        "required" : ["href","rel"],
+                                        "properties":{
+                                            "href": {
+                                                "type":"string"
+                                            },
+                                            "rel": {
+                                                "type":"string"
+                                            }
+                                        }
+                                    }
+                            },
+                            "request": {
+                            "type":"object",
+                                "required":["method"],
+                                "properties":{
+                                    "method": {
+                                        "type":"string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "links" : [
+                    {
+                        "rel" : "parent",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                    },
+                    {
+                        "rel" : "self",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
+                    }
+                ],
+                "actions" : [
+                    {
+                        "method" : "GET",
+                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
                     }
                 ]
             }
