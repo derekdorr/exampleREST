@@ -5,11 +5,14 @@ An attempt at an example REST Structure / Standard for API and JSON development.
 
 Example endpoint collection can be interacted with at: https://examplerest.apiary-mock.com/
 
-## Use of HTTP Response Codes
+## Use of HTTP Status Codes
 
-Standardized HTTP response codes should be used in cases of success or failure, depending on the type of success or failure achieved. Some useful response codes are outlined below.
+Standardized HTTP status codes should be used in cases of success or failure, depending on the type of success or failure achieved. Some useful response codes are outlined below.
 
-### Successful Responses - 2XX
+More information on HTTP response codes can be found here: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+Or, pull them right from W3: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+
+### Success - 2XX
 
 |Response Code|Name|Description|
 |-------------|----|-----------|
@@ -18,7 +21,25 @@ Standardized HTTP response codes should be used in cases of success or failure, 
 
 ### Client Error - 4XX
 
+|Response Code|Name|Description|
+|-------------|----|-----------|
+|400|Bad Request|The request cannot be completed due to bad syntax.|
+|401|Unauthorized|The request requires authentication to be completed.|
+|403|Forbidden|Similar to 401, but authentication will not allow request to be completed.|
+|404|Not Found|The requested resource was not found.|
+|405|Method Not Allowed|An unsupported method was used.|
+|408|Request Timeout|The request timed out.|
+|410|Gone|The resource used to exist, but no longer exists.|
+|418|I'm A Teapot|I'm a teapot...|
+|429|Too Many Requests|Number of requests have exceeded the rate limit.|
 
+### Server Error - 5XX
+
+|Response Code|Name|Description|
+|-------------|----|-----------|
+|500|Internal Server Error|Generic server fault status.|
+|501|Not Implemented|The requested resource has not yet been implemented.|
+|503|Service Unavailable|The service is temporarily down.|
 
 ## Basic response structure
 
