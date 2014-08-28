@@ -100,5 +100,4 @@ Or, pull them right from W3: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 
 ## Property Naming Conventions
 
-+ For ease of use in JavaScript, and to comply with Javascript naming standards, properties should be camelCase.
 + Booleans should be in a format of `is` followed by a noun or adjective. I.E. `isError`, `isRed`, `isHappy`.
