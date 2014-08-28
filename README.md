@@ -41,6 +41,23 @@ Or, pull them right from W3: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 |501|Not Implemented|The requested resource has not yet been implemented.|
 |503|Service Unavailable|The service is temporarily down.|
 
+## HTTP Request Methods
+
+|Method|When To Use|Safe?|Secure?|Idempotent?|
+|------|-----------|-----|-------|-----------|
+|GET|Information retrieval|Yes|Yes|Yes|
+|HEAD|Similiar to GET, but returns only header information.|Yes|Yes|Yes|
+|POST|Create a new entity under a resource.|No|Yes|No|
+|PUT|Update an existing entity under a resource.|No|Yes|Yes|
+|DELETE|Delete an existing entity under a resource.|No|Yes|Yes|
+|TRACE|Echo request made to target.|Yes|No|Yes|
+|OPTIONS|Returns supported methods to client.|Yes|Yes|Yes|
+|PATCH|Update a resource defined by a URI|No|No|No|
+
++ Safe: Information is only retrieved, it is not created, edited, or removed.
++ Secure: This method is not considered a potential security risk.
++ Idempotent: Multiple simultaneous requests should return the same response.
+
 ## Basic response structure
 
             {
