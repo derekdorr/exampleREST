@@ -110,8 +110,9 @@ For a complete list of link relations accepted by IANA, see http://www.iana.org/
 
 |Relation Name|Description|IANA Standard?|Reference|
 |-------------|-----------|--------------|---------|
-|first|Identifier for first resource in a series of resources|Yes|http://www.iana.org/go/rfc5988|
-|schema|Indetifier for link to schema for current resource|No||
-|self|Indentifier for link to current resource|Yes|http://tools.ietf.org/html/rfc4287|
-|up|Identifier for parent resource of current resource|Yes|http://www.iana.org/go/rfc5988|
+|first|First resource in a series of resources|Yes|http://www.iana.org/go/rfc5988|
+|item|A resource that is part of a collection represented by the current resource|Yes|http://www.iana.org/go/rfc6573|
+|schema|Schema resource for current resource|No||
+|self|Current resource|Yes|http://tools.ietf.org/html/rfc4287|
+|up|Parent resource of current resource|Yes|http://www.iana.org/go/rfc5988|
 
