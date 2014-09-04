@@ -101,3 +101,14 @@ Or, pull them right from W3: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 ## Property Naming Conventions
 
 + Booleans should be in a format of `is` followed by a noun or adjective. I.E. `isError`, `isRed`, `isHappy`.
+
+## Link Relations
+
+The following table contains a list of link relations which might be useful in building a Hypermedia REST spec.  Where possible, link relations should be obtained from the standards presented by the IANA.
+
+For a complete list of link relations accepted by IANA, see http://www.iana.org/assignments/link-relations/link-relations.xhtml
+
+|Relation Name|Description|IANA Standard?|Reference|
+|-------------|-----------|--------------|---------|
+|self|Indentifier for link to current resource|Yes|http://tools.ietf.org/html/rfc4287|
+|schema|Indetifier for link to schema for current resource|No||
