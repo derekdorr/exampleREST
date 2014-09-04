@@ -112,7 +112,20 @@ For a complete list of link relations accepted by IANA, see http://www.iana.org/
 |-------------|-----------|--------------|---------|
 |first|First resource in a series of resources|Yes|http://www.iana.org/go/rfc5988|
 |item|A resource that is part of a collection represented by the current resource|Yes|http://www.iana.org/go/rfc6573|
+|latest-version|Most recent version for current resource|Yes|http://www.iana.org/go/rfc5829|
 |schema|Schema resource for current resource|No||
 |self|Current resource|Yes|http://tools.ietf.org/html/rfc4287|
 |up|Parent resource of current resource|Yes|http://www.iana.org/go/rfc5988|
 
+## Versioning
+
+TODO
+
+Versioning should best allow for separation of backend and client behaviors. A change to a backend service should not effect a client currently consuming a specific version, and clients should be able to move between versions without requiring a change to the backend service.
+
+With respect to an API, internally, a version can be represented in one of the following two ways:
+
+	+ `v1.0`
+	+ `v1.1.0`
+
+Depending on internal context, versioning should follow one of these patterns.
