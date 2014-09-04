@@ -125,7 +125,7 @@ Versioning should best allow for separation of backend and client behaviors. A c
 
 With respect to an API, internally, a version can be represented in one of the following two ways:
 
-	+ `v1.0`
-	+ `v1.1.0`
+	+ v1.0
+	+ v1.1.0
 
 Depending on internal context, versioning should follow one of these patterns.
