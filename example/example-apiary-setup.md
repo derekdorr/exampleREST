@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://www.google.com
+HOST: https://www.google.com
 
 # ExampleREST
 An attempt at a standard for RESTful APIs.
@@ -18,22 +18,22 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/"
                     },
                     {
                         "rel" : "schema",
-                        "href" : "https://examplerest.apiary-mock.com/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema"
                     },
                     {
                         "rel" : "v1",
                         "description" : "Collection of V1 APIs",
-                        "href" : "https://examplerest.apiary-mock.com/v1"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     }
                 ],
                 "actions" : [
                     {
                         "method": "GET",
-                        "href": "https://examplerest.apiary-mock.com"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com"
                     }
                 ]
             }
@@ -52,21 +52,21 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema"
                     },
                     {
                         "rel" : "get",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema"
                     }
                 ]
             }
@@ -85,22 +85,22 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get"
                     },
                     {
                         "rel" : "200",
                         "description" : "Success",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get/200"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get"
                     }
                 ]
             }
@@ -168,17 +168,17 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get/200"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema/get/200"
                     }
                 ]
             }
@@ -197,26 +197,26 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     },
                     {
                         "rel" : "schema",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema"
                     },
                     {
                         "rel" : "users",
                         "description" : "Users API",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     }
                 ],
                 "actions" : [
                     {
                         "method": "GET",
-                        "href": "https://examplerest.apiary-mock.com/v1"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     }
                 ]
             }
@@ -235,21 +235,21 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema"
                     },
                     {
                         "rel" : "get",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/schema"
                     }
                 ]
             }
@@ -268,22 +268,22 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get"
                     },
                     {
                         "rel" : "200",
                         "description" : "Success",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get/200"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get"
                     }
                 ]
             }
@@ -351,17 +351,17 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get/200"
                     }
                 ],
                 "actions" : [
                     {
                         "method" : "GET",
-                        "href" : "https://examplerest.apiary-mock.com/v1/schema/get/200"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/schema/get/200"
                     }
                 ]
             }
@@ -384,16 +384,16 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "specify",
                         "description" : "Retrieve general information about a specific user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/{userId}",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/{userId}",
                         "params" : [
                             {
                                 "name" : "userId",
@@ -407,12 +407,12 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "GET",
                         "description" : "Return high-level users information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "method": "POST",
                         "description" : "Create a new user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -479,16 +479,16 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "specify",
                         "description" : "Retrieve general information about a specific user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/{userId}",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/{userId}",
                         "params" : [
                             {
                                 "name" : "userId",
@@ -503,12 +503,12 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "GET",
                         "description" : "Return high-level users information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "method": "POST",
                         "description" : "Create a new user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -565,33 +565,33 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "profile",
                         "description" : "Retrieve user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "rel" : "account",
                         "description" : "Retrieve user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return specific user information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -619,7 +619,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method" : "DELETE",
                         "description" : "Delete user.",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     }
                 ]
             }
@@ -645,11 +645,11 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2002"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2002"
                     }
                 ]
             }
@@ -684,33 +684,33 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "profile",
                         "description" : "Retrieve user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "rel" : "account",
                         "description" : "Retrieve user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return specific user information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -738,7 +738,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method" : "DELETE",
                         "description" : "Delete user.",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     }
                 ]
             }
@@ -756,11 +756,11 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     }
                 ],
                 "actions": []
@@ -790,28 +790,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "rel" : "account",
                         "description" : "Retrieve user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user profile information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -844,7 +844,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -919,28 +919,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "rel" : "account",
                         "description" : "Retrieve user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user profile information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -973,7 +973,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1048,28 +1048,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "rel" : "account",
                         "description" : "Retrieve user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user profile information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1102,7 +1102,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1154,28 +1154,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "rel" : "profile",
                         "description" : "Retrieve user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user account information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1193,7 +1193,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1242,28 +1242,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "rel" : "profile",
                         "description" : "Retrieve user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user account information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1281,7 +1281,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1330,28 +1330,28 @@ An attempt at a standard for RESTful APIs.
                 "links" : [
                     {
                         "rel" : "parent",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001"
                     },
                     {
                         "rel" : "self",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "rel" : "profile",
                         "description" : "Retrieve user profile information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/profile"
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/profile"
                     }
                 ],
                 "actions": [
                     {
                         "method": "GET",
                         "description" : "Return user account information.",
-                        "href": "https://examplerest.apiary-mock.com/v1/users/2001/account"
+                        "href": "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account"
                     },
                     {
                         "method": "PUT",
                         "description" : "Update user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
@@ -1369,7 +1369,7 @@ An attempt at a standard for RESTful APIs.
                     {
                         "method": "POST",
                         "description" : "Create user account information",
-                        "href" : "https://examplerest.apiary-mock.com/v1/users/2001/account",
+                        "href" : "https://private-60e4e-examplerest.apiary-mock.com/v1/users/2001/account",
                         "type" : "application/json",
                         "params" : [
                             {
